@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tailwind-clone</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="relative">
-        <div class="px-4 sm:px-6 md:px-8">
+        <div class="px-4 sm:px-6 md:px-8 bg-cover pb-14 w-full h-full bg-[url('https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg')]">
             <!-- <div class="z-0 absolute inset-0 bottom-10 bg-bottom bg-no-repeat bg-slate-50 dark:bg-[#0B1120] background-img">
                 <div class="absolute inset-0 backgroud-image bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5" style="mask-image: linear-gradient(transparent, black);"></div>
             </div> -->
-            <div class="mt-4 flex justify-between  items-end">
+            <div class="pt-4 flex justify-between  items-end z-10">
                 <div class="">
                     <svg viewBox="0 0 248 31" class="text-slate-900 dark:text-white w-auto h-5"><path fill-rule="evenodd" clip-rule="evenodd" d="M25.517 0C18.712 0 14.46 3.382 12.758 10.146c2.552-3.382 5.529-4.65 8.931-3.805 1.941.482 3.329 1.882 4.864 3.432 2.502 2.524 5.398 5.445 11.722 5.445 6.804 0 11.057-3.382 12.758-10.145-2.551 3.382-5.528 4.65-8.93 3.804-1.942-.482-3.33-1.882-4.865-3.431C34.736 2.92 31.841 0 25.517 0zM12.758 15.218C5.954 15.218 1.701 18.6 0 25.364c2.552-3.382 5.529-4.65 8.93-3.805 1.942.482 3.33 1.882 4.865 3.432 2.502 2.524 5.397 5.445 11.722 5.445 6.804 0 11.057-3.381 12.758-10.145-2.552 3.382-5.529 4.65-8.931 3.805-1.941-.483-3.329-1.883-4.864-3.432-2.502-2.524-5.398-5.446-11.722-5.446z" fill="#38bdf8"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M76.546 12.825h-4.453v8.567c0 2.285 1.508 2.249 4.453 2.106v3.463c-5.962.714-8.332-.928-8.332-5.569v-8.567H64.91V9.112h3.304V4.318l3.879-1.143v5.937h4.453v3.713zM93.52 9.112h3.878v17.849h-3.878v-2.57c-1.365 1.891-3.484 3.034-6.285 3.034-4.884 0-8.942-4.105-8.942-9.389 0-5.318 4.058-9.388 8.942-9.388 2.801 0 4.92 1.142 6.285 2.999V9.112zm-5.674 14.636c3.232 0 5.674-2.392 5.674-5.712s-2.442-5.711-5.674-5.711-5.674 2.392-5.674 5.711c0 3.32 2.442 5.712 5.674 5.712zm16.016-17.313c-1.364 0-2.477-1.142-2.477-2.463a2.475 2.475 0 012.477-2.463 2.475 2.475 0 012.478 2.463c0 1.32-1.113 2.463-2.478 2.463zm-1.939 20.526V9.112h3.879v17.849h-3.879zm8.368 0V.9h3.878v26.06h-3.878zm29.053-17.849h4.094l-5.638 17.849h-3.807l-3.735-12.03-3.771 12.03h-3.806l-5.639-17.849h4.094l3.484 12.315 3.771-12.315h3.699l3.734 12.315 3.52-12.315zm8.906-2.677c-1.365 0-2.478-1.142-2.478-2.463a2.475 2.475 0 012.478-2.463 2.475 2.475 0 012.478 2.463c0 1.32-1.113 2.463-2.478 2.463zm-1.939 20.526V9.112h3.878v17.849h-3.878zm17.812-18.313c4.022 0 6.895 2.713 6.895 7.354V26.96h-3.878V16.394c0-2.713-1.58-4.14-4.022-4.14-2.55 0-4.561 1.499-4.561 5.14v9.567h-3.879V9.112h3.879v2.285c1.185-1.856 3.124-2.749 5.566-2.749zm25.282-6.675h3.879V26.96h-3.879v-2.57c-1.364 1.892-3.483 3.034-6.284 3.034-4.884 0-8.942-4.105-8.942-9.389 0-5.318 4.058-9.388 8.942-9.388 2.801 0 4.92 1.142 6.284 2.999V1.973zm-5.674 21.775c3.232 0 5.674-2.392 5.674-5.712s-2.442-5.711-5.674-5.711-5.674 2.392-5.674 5.711c0 3.32 2.442 5.712 5.674 5.712zm22.553 3.677c-5.423 0-9.481-4.105-9.481-9.389 0-5.318 4.058-9.388 9.481-9.388 3.519 0 6.572 1.82 8.008 4.605l-3.34 1.928c-.79-1.678-2.549-2.749-4.704-2.749-3.16 0-5.566 2.392-5.566 5.604 0 3.213 2.406 5.605 5.566 5.605 2.155 0 3.914-1.107 4.776-2.749l3.34 1.892c-1.508 2.82-4.561 4.64-8.08 4.64zm14.472-13.387c0 3.249 9.661 1.285 9.661 7.89 0 3.57-3.125 5.497-7.003 5.497-3.591 0-6.177-1.607-7.326-4.177l3.34-1.927c.574 1.606 2.011 2.57 3.986 2.57 1.724 0 3.052-.571 3.052-2 0-3.176-9.66-1.391-9.66-7.781 0-3.356 2.909-5.462 6.572-5.462 2.945 0 5.387 1.357 6.644 3.713l-3.268 1.82c-.647-1.392-1.904-2.035-3.376-2.035-1.401 0-2.622.607-2.622 1.892zm16.556 0c0 3.249 9.66 1.285 9.66 7.89 0 3.57-3.124 5.497-7.003 5.497-3.591 0-6.176-1.607-7.326-4.177l3.34-1.927c.575 1.606 2.011 2.57 3.986 2.57 1.724 0 3.053-.571 3.053-2 0-3.176-9.66-1.391-9.66-7.781 0-3.356 2.908-5.462 6.572-5.462 2.944 0 5.386 1.357 6.643 3.713l-3.268 1.82c-.646-1.392-1.903-2.035-3.375-2.035-1.401 0-2.622.607-2.622 1.892z" fill="currentColor"></path></svg>
                 </div>
@@ -26,9 +26,47 @@
                             <li><a href="#" class="hover:text-sky-500">Showcase</a></li>
                         </ul>
                         <div class="flex items-center border-l border-slate-200 ml-6 pl-6">
-                            <div class="">
+                            <!-- <div class="">
                                 <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" class="fill-sky-400/20 stroke-sky-500"></path><path d="M12 4v1M17.66 6.344l-.828.828M20.005 12.004h-1M17.66 17.664l-.828-.828M12 20.01V19M6.34 17.664l.835-.836M3.995 12.004h1.01M6 6l.835.836" class="stroke-sky-500"></path></svg>
-                            </div>
+                            </div>  -->
+                            <div class="dropdown">
+                                <button class="dropdown-toggle relative h-10 overflow-hidden focus:overflow-visible" aria-expanded="false">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6"><path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" class="fill-sky-400/20 stroke-sky-500"></path><path d="M12 4v1M17.66 6.344l-.828.828M20.005 12.004h-1M17.66 17.664l-.828-.828M12 20.01V19M6.34 17.664l.835-.836M3.995 12.004h1.01M6 6l.835.836" class="stroke-sky-500"></path></svg>
+                                    <ul class="dropdown-menu absolute top-10 -left-6 w-[100px] bg-white border border-zinc-200 rounded-lg shadow-lg">
+                                        <li class="flex flex-row gap-2 items-center hover:bg-zinc-100 p-2 rounded-lg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                                                <path fill="currentColor"
+                                                  d="M12 5q-.425 0-.712-.288T11 4V2q0-.425.288-.712T12 1q.425 0 .713.288T13 2v2q0 .425-.288.713T12 5m4.95 2.05q-.275-.275-.275-.687t.275-.713l1.4-1.425q.3-.3.712-.3t.713.3q.275.275.275.7t-.275.7L18.35 7.05q-.275.275-.7.275t-.7-.275M20 13q-.425 0-.713-.288T19 12q0-.425.288-.712T20 11h2q.425 0 .713.288T23 12q0 .425-.288.713T22 13zm-8 10q-.425 0-.712-.288T11 22v-2q0-.425.288-.712T12 19q.425 0 .713.288T13 20v2q0 .425-.288.713T12 23M5.65 7.05l-1.425-1.4q-.3-.3-.3-.725t.3-.7q.275-.275.7-.275t.7.275L7.05 5.65q.275.275.275.7t-.275.7q-.3.275-.7.275t-.7-.275m12.7 12.725l-1.4-1.425q-.275-.3-.275-.712t.275-.688q.275-.275.688-.275t.712.275l1.425 1.4q.3.275.288.7t-.288.725q-.3.3-.725.3t-.7-.3M2 13q-.425 0-.712-.288T1 12q0-.425.288-.712T2 11h2q.425 0 .713.288T5 12q0 .425-.288.713T4 13zm2.225 6.775q-.275-.275-.275-.7t.275-.7L5.65 16.95q.275-.275.687-.275t.713.275q.3.3.3.713t-.3.712l-1.4 1.4q-.3.3-.725.3t-.7-.3M12 18q-2.5 0-4.25-1.75T6 12q0-2.5 1.75-4.25T12 6q2.5 0 4.25 1.75T18 12q0 2.5-1.75 4.25T12 18m0-2q1.65 0 2.825-1.175T16 12q0-1.65-1.175-2.825T12 8q-1.65 0-2.825 1.175T8 12q0 1.65 1.175 2.825T12 16m0-4" />
+                                            </svg>
+                                            <p>Light</p>
+                                        </li>
+                                        <li class="flex flex-row gap-2 items-center hover:bg-zinc-100 p-2 rounded-lg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                                                <path fill="currentColor"
+                                                  d="M12 21q-3.775 0-6.387-2.613T3 12q0-3.45 2.25-5.988T11 3.05q.325-.05.575.088t.4.362q.15.225.163.525t-.188.575q-.425.65-.638 1.375T11.1 7.5q0 2.25 1.575 3.825T16.5 12.9q.775 0 1.538-.225t1.362-.625q.275-.175.563-.162t.512.137q.25.125.388.375t.087.6q-.35 3.45-2.937 5.725T12 21m0-2q2.2 0 3.95-1.213t2.55-3.162q-.5.125-1 .2t-1 .075q-3.075 0-5.238-2.163T9.1 7.5q0-.5.075-1t.2-1q-1.95.8-3.163 2.55T5 12q0 2.9 2.05 4.95T12 19m-.25-6.75" />
+                                              </svg>
+                                              <p>Dark</p>
+                                        </li>
+                                        <li class="flex flex-row gap-2 items-center hover:bg-zinc-100 p-2 rounded-lg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 48 48">
+                                                <g fill="none" stroke="currentColor" stroke-width="4">
+                                                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 32h10v9H19z" />
+                                                  <rect width="38" height="24" x="5" y="8" rx="2" />
+                                                  <path stroke-linecap="round" stroke-linejoin="round" d="M22 27h4M14 41h20" />
+                                                </g>
+                                              </svg>
+                                              <p>System</p>
+                                        </li>
+                                      </ul>
+                                </button>
+                                <!-- <ul class="dropdown-menu absolute top-6 -left-6 w-[100px]">
+                                  <li><a href="#">Menu item 1</a></li>
+                                  <li><a href="#">Menu item 2</a></li>
+                                  <li><a href="#">Menu item 3</a></li>
+                                </ul> -->
+                              </div>
+                              
+                            <!-- component -->
                             <div class="">
                                 <a href="#" class="ml-6 block text-slate-400 hover:text-slate-500">
                                     <svg viewBox="0 0 16 16" class="w-5 h-5" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
@@ -59,7 +97,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div class=""></div> -->
+        <img src="../tailwindcss.png" alt="" class="h-full w-full">
     </header>
     <div class="text-center px-8 mt-20 sm:mt-32 md:mt-40">
         <h2 class="text-slate-900 text-4xl tracking-tight font-extrabold sm:text-5xl dark:text-white">
@@ -75,7 +113,7 @@
             </p>
         </div>
         <div class="mt-6 flex items-center justify-center space-x-4 text-left overflow-hidden">
-            <img class="inline-block overflow-hidden h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+            <img class="h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
             <div class="flex flex-col">
                 <div class="font-semibold">Adam Wathon</div>
                 <div class="mt-0.5 text-sm leading-6 text-gray-400">Creator of tailwind CSS</div>
@@ -87,8 +125,8 @@
             <div class="space-y-6">
                 <div class="bg-slate-50 p-6 rounded-lg">
                     <a href="#">
-                        <div class="flex items-center space-x-4 text-left overflow-hidden">
-                            <img class="inline-block overflow-hidden h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+                        <div class="flex items-center space-x-4 text-left">
+                            <img class="h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
                             <div class="flex flex-col">
                                 <div class="font-semibold">Adam Wathon</div>
                                 <div class="mt-0.5 text-sm leading-6 text-gray-400">Creator of tailwind CSS</div>
@@ -97,10 +135,10 @@
                         <p class="text-slate-500 text-wrap mt-3">I feel like an idiot for not using Tailwind CSS until now.</p>
                     </a>
                 </div>
-                <div class="">
+                <div class="bg-slate-50 p-6 rounded-lg">
                     <a href="#">
-                        <div class="flex items-center space-x-4 text-left overflow-hidden">
-                            <img class="inline-block overflow-hidden h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+                        <div class="flex items-center space-x-4 text-left">
+                            <img class="h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
                             <div class="flex flex-col">
                                 <div class="font-semibold">Guillermo Rauch</div>
                                 <div class="mt-0.5 text-sm leading-6 text-gray-400">Vercel</div>
@@ -109,7 +147,18 @@
                         <p class="text-slate-500 text-wrap mt-3">If i had to recommend a way of getting into programming today, it would be HTML + CSS with Tailwind CSS.</p>
                     </a>
                 </div>
-                <div class=""></div>
+                <div class="bg-slate-50 p-6 rounded-lg">
+                    <a href="#">
+                        <div class="flex items-center space-x-4 text-left">
+                            <img class="h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+                            <div class="flex flex-col">
+                                <div class="font-semibold">Sara Vieira</div>
+                                <div class="mt-0.5 text-sm leading-6 text-gray-400">CodeSandbox</div>
+                            </div>
+                        </div> 
+                        <p class="text-slate-500 text-wrap mt-6">I have no design skills and with Tailwind I can actually make good looking websites with ease and it's everything I ever wanted in a CSS framework.</p>
+                    </a>
+                </div>
                 <div class=""></div>
                 <div class=""></div>
                 <div class=""></div>
@@ -119,8 +168,8 @@
             <div class="space-y-6">
                 <div class="bg-slate-50 p-6 rounded-lg">
                     <a href="">
-                        <div class="flex items-center space-x-4 text-left overflow-hidden">
-                            <img class="inline-block overflow-hidden h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+                        <div class="flex items-center space-x-4 text-left">
+                            <img class="h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
                             <div class="flex flex-col">
                                 <div class="font-semibold">Adam Wathon</div>
                                 <div class="mt-0.5 text-sm leading-6 text-gray-400">Creator of tailwind CSS</div>
@@ -129,11 +178,35 @@
                         <p class="text-slate-500 text-wrap mt-3">Have been working with CSS for over ten years and Tailwind just makes my life easier. It is still CSS and you use flex, grid, etc. but just quicker to write and maintain.</p>
                     </a>
                 </div>
+                <div class="bg-slate-50 p-6 rounded-lg">
+                    <a href="#">
+                        <div class="flex items-center space-x-4 text-left">
+                            <img class="h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+                            <div class="flex flex-col">
+                                <div class="font-semibold">Ben Furfie</div>
+                                <div class="mt-0.5 text-sm leading-6 text-gray-400">Developer</div>
+                            </div>
+                        </div> 
+                        <p class="text-slate-500 text-wrap mt-3">I’ve been writing CSS for over 20 years, and up until 2017, the way I wrote it changed frequently. It’s not a coincidence Tailwind was released the same year. It might look wrong, but spend time with it and you’ll realize semantic CSS was a 20 year mistake.</p>
+                    </a>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-lg">
+                    <a href="#">
+                        <div class="flex items-center space-x-4 text-left">
+                            <img class="h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+                            <div class="flex flex-col">
+                                <div class="font-semibold">Didier Catz</div>
+                                <div class="mt-0.5 text-sm leading-6 text-gray-400">Co-founder @StyptApp</div>
+                            </div>
+                        </div> 
+                        <p class="text-slate-500 text-wrap mt-6">Tailwind makes writting code feel like I'm using a design tool.</p>
+                    </a>
+                </div>
             </div>
             <div class="space-y-6">
                 <div class="bg-slate-50 p-6 rounded-lg">
                     <a href="#">
-                        <div class="flex items-center space-x-4 text-left overflow-hidden">
+                        <div class="flex items-center space-x-4 text-left">
                             <img class="inline-block overflow-hidden h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
                             <div class="flex flex-col">
                                 <div class="font-semibold">Adam Wathon</div>
@@ -143,7 +216,36 @@
                         <p class="text-slate-500 text-wrap mt-3">Skip to the end. Use @tailwind</p>
                     </a>
                 </div>
+                <div class="bg-slate-50 p-6 rounded-lg">
+                    <a href="#">
+                        <div class="flex items-center space-x-4 text-left">
+                            <img class="inline-block overflow-hidden h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+                            <div class="flex flex-col">
+                                <div class="font-semibold">Shruti Balasa</div>
+                                <div class="mt-0.5 text-sm leading-6 text-gray-400">Full Stack Web Developer & Tech Educator</div>
+                            </div>
+                        </div> 
+                        <p class="text-slate-500 text-wrap mt-3">I was bad at front-end until I discovered Tailwind CSS. I have learnt a lot more about design and CSS itself after I started working with Tailwind. Creating web pages is 5x faster now.</p>
+                    </a>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-lg contrast-more:opacity-100">
+                    <a href="#">
+                        <div class="flex items-center space-x-4 text-left">
+                            <img class="h-12 w-12 rounded-full ring-2 ring-white" src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt=""/>
+                            <div class="flex flex-col">
+                                <div class="font-semibold">Ben Furfie</div>
+                                <div class="mt-0.5 text-sm leading-6 text-gray-400">Developer</div>
+                            </div>
+                        </div> 
+                        <p class="text-slate-500 text-wrap mt-3">I’ve been writing CSS for over 20 years, and up until 2017, the way I wrote it changed frequently. It’s not a coincidence Tailwind was released the same year. It might look wrong, but spend time with it and you’ll realize semantic CSS was a 20 year mistake.</p>
+                    </a>
+                </div>
             </div>
+        </div>
+        <div class="inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-white pt-32 pb-8 pointer-events-none absolute">
+            <button type="button" class="relative bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 text-sm text-white font-semibold h-12 px-6 rounded-lg flex items-center pointer-events-auto">
+                Show more...
+            </button>
         </div>
     </div>
     <div class="gap-y-20 mb-20">
@@ -177,6 +279,7 @@
                 </div>
             </div>
         </section>
+        <img src="../Screenshot_2024-04-20_12-05-14.png" alt="" class="w-full h-full mt-10">
         <!-- section-2 -->
         <section class="pt-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
             <img class="w-16 h-16 " src="https://tailwindcss.com/_next/static/media/build-anything.d8e81ea3.png" alt="">
@@ -208,6 +311,7 @@
                 </div>
             </div>
         </section>
+        <img src="../Screenshot_2024-04-20_14-20-39.png" alt="" class="h-full w-full mt-14">
         <section class="pt-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
             <img class="w-16 h-16 " src="https://tailwindcss.com/_next/static/media/performance.2258d350.png" alt="">
             <h2 class="mt-8 text-sky-500 font-semibold">Performance</h2>
@@ -218,6 +322,7 @@
                 <svg class="overflow-visible  items-center ml-3 text-sky-300 group-hover:text-sky-400 dark:text-slate-500" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
             </a>
         </section>
+        <img src="../performance.png" alt="" class="h-full w-full mt-14">
         <section class="pt-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
             <img class="w-16 h-16 " src="https://tailwindcss.com/_next/static/media/mobile-first.b61c76c9.png" alt="">
             <h2 class="mt-8 text-indigo-500 font-semibold">Mobile-first</h2>
@@ -229,6 +334,7 @@
                 <svg class="overflow-visible  items-center ml-3 text-indigo-300 group-hover:text-indigo-400 dark:text-slate-500" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
             </a>
         </section>
+        <img src="../responsive.png" alt="" class="h-full w-full mt-14">
         <section class="pt-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
             <img class="w-16 h-16 " src="https://tailwindcss.com/_next/static/media/state-variants.85fa7325.png" alt="">
             <h2 class="mt-8 text-blue-500 font-semibold">state-variants</h2>
@@ -239,6 +345,7 @@
                 <svg class="overflow-visible  items-center ml-3 text-blue-300 group-hover:text-blue-400" width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0L3 3L0 6"></path></svg>
             </a>
         </section>
+        <img src="../state-varient.png" alt="" class="h-full w-full mt-14">
         <section class="pt-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
             <img class="w-16 h-16 " src="https://tailwindcss.com/_next/static/media/component-driven.82a66c3c.png" alt="">
             <h2 class="mt-8 text-sky-500 font-semibold">Component-driven</h2>
